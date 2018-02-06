@@ -123,7 +123,7 @@ class FTP_Module:
         return True
 
 if __name__ == "__main__":
-    kwargs = {"user_name":"dev","password":"g00Gle"}
+    kwargs = {"user_name":"","password":""}
     ftp = FTP_Module(**kwargs)
     ftp.connect_to_ftp()
     kwargs["remote_file_path"] = "Downloads/Download2/Download3/chrome.deb"
